@@ -4,7 +4,7 @@
     --dark-pink: #F16D7F;
     --sales-bkg-color: #4F4745;
     --light-grey-bkg: #F8F8F8;
-    ;
+    --bkg3: url(./img/photo\ subscribe.jpg);
 }
 
 body {
@@ -188,4 +188,67 @@ body {
     border: 1px solid var(--dark-pink);
     padding: 15px 38px 15px 38px;
     color: var(--dark-pink);
+}
+
+footer {
+    background-color: var(--black);
+}
+
+.adv {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.adv__item {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: 70px 0 70px 0;
+}
+
+.adv__item-title {
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+}
+
+.adv__item-text {
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.sub {
+    background-image: var(--bkg3);
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub__part {
+    display: flex;
+    margin: 200px 90px 200px 90px;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    text-align: center;
+}
+
+.conts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.conts__reserved-text {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.conts__el {
+    margin: 30px 0 30px 0;
 }
