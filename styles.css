@@ -252,3 +252,8 @@ footer {
 .conts__el {
     margin: 30px 0 30px 0;
 }
+
+.reg {
+    display: flex;
+    justify-content: space-around;
+}
